@@ -7,16 +7,13 @@
 }
 
 body {
-
     background-color: hsl(228, 12%, 48%);
 }
 
 .container {
-    position: absolute;
-    top: 1rem;
-    left: 29rem;
+    margin-left: auto;
+    margin-right: auto;
     width: 317px;
-    height: 620px;
     background-color: white;
     border-radius: 12px 12px 12px 12px;
 }
@@ -31,8 +28,7 @@ body {
 
 .text-content {
     align-items: center;
-    padding-top: 1rem;
-    padding-left: 2rem;
+    padding: 25px;
 }
 
 .text-content h2 {
@@ -45,11 +41,41 @@ body {
 .text-content h1 {
     color: black;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Fraunces', serif;
 }
 
 .text-content p {
     font-size: 15px;
     color: grey;
+}
+
+.price1 {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    margin-right: 15px;
+    color: hsl(158, 36%, 37%);
+}
+
+.price2 {
+    color: grey;
+    font-size: 11px;
+    text-decoration: line-through;
+}
+
+.content-price {
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    width: 100%;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: inline;
+}
+
+.btn-primary:hover {
+    background-color: hsl(160, 45%, 40%);
 }
