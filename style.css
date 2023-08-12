@@ -1,0 +1,24 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(228, 12%, 48%);
+}
+
+.container {
+    position: absolute;
+    left: 27rem;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.container img {
+    background-size: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 400px;
+}
+
+.container h2 {
+    font-size: 13px;
+}
